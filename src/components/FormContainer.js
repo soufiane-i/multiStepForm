@@ -7,21 +7,20 @@ function FormContainer() {
   return (
     <div
       className="formContainer form absolute w-full h-screen flex flex-col justify-between rounded-[1vw]
-    xl:relative xl:w-[70%] xl:h-full  xl:px-[10%]  xl:pb-0 "
+    md:relative md:w-[70%] md:h-full md:px-[8vw] md:pb-0 "
     >
       <form
         action=""
         method="get"
-        className="xl:h-full xl:flex flex-col justify-center
-"
+        className=" md:flex flex-col justify-center
+md:h-screen"
       >
         <div
-          className="form w-[90%] mx-auto mt-[120px] bg-white rounded-xl p-[30px] pb-[10px] shadow-lg
-          md:pb-[40px] md:mt-[205px] md:pt-[70px]
-          xl:relative xl:h-[92%] xl:m-0 xl:w-full xl:pt-[0] xl:shadow-none xl:p-0 xl:m-0"
+          className="form w-[90%] mx-auto mt-[23.5vw] bg-white rounded-xl px-[4vw] pt-[4vw] pb-[2vw] shadow-lg
+          md:relative md:m-0 md:w-full md:pt-[0] xl:shadow-none md:p-0 xl:m-0"
         >
           <Title />
-          <div className="xl:h-[75%]">
+          <div className="h-full xl:h-[75%]">
             <PersonalInfo />
             <PlanSelection />
           </div>

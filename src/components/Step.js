@@ -3,19 +3,18 @@ import "../App.css";
 function Step(props) {
   return (
     <div
-      className="relative flex px-[9px] pt-[40px]
-      md:px-[14px] md:pt-[60px]
+      className="relative flex px-[2.5vw] pt-[8vw]
+     
       xl:mb-[10%] xl:pt-0 xl:px-[0px]"
     >
       <div
-        className="flex justify-center items-center border-solid border-[0.125vw] border-violet-300 rounded-full w-[35px] h-[35px] 
-        md:w-[60px] md:h-[60px]  
+        className="flex justify-center items-center border-solid border-[0.125vw] border-violet-300 rounded-full w-[8.5vw] h-[8.5vw] 
+         md:border-[1.5px]  
         xl:w-[13%] xl:h-[2.3vw]
 "
       >
         <span
-          className="flex items-center justify-center text-sm font-bold text-white
-          md:text-2xl
+          className="flex items-center justify-center text-[3.5vw] font-bold text-white
           xl:text-[1vw]
            "
         >

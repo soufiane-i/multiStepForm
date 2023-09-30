@@ -4,8 +4,7 @@ import Step from "./Step";
 function Steps() {
   return (
     <div
-      className="steps relative w-full h-48
-      md:h-[360px]
+      className="steps relative w-full h-[40vw]
       xl:w-[30%] xl:h-full
        "
     >
