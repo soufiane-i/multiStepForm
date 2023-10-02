@@ -2,41 +2,22 @@ import "../App.css";
 
 function Step(props) {
   return (
-    <div
-      className="relative flex px-[2.5vw] pt-[8vw]
-     
-      xl:mb-[10%] xl:pt-0 xl:px-[0px]"
-    >
+    <div className="mx-[2vw]">
       <div
-        className="flex justify-center items-center border-solid border-[0.125vw] border-violet-300 rounded-full w-[8.5vw] h-[8.5vw] 
-         md:border-[1.5px]  
-        xl:w-[13%] xl:h-[2.3vw]
-"
+        className="h-[9vw] w-[9vw] max-w-[60px] max-h-[60px] text-[4vw] flex justify-center items-center text-white border-[2px] border-indigo-300 rounded-full
+      md:text-[26px]
+        "
       >
         <span
-          className="flex items-center justify-center text-[3.5vw] font-bold text-white
-          xl:text-[1vw]
+          className="
            "
         >
           {props.num}
         </span>
       </div>
-      <div
-        className="hidden 
-        xl:flex xl:flex-col xl:justify-center xl:text-left xl:ml-[8%]"
-      >
-        <p
-          className="text-violet-400 font-bold
-        xl:text-[0.8vw]"
-        >
-          STEP {props.num}
-        </p>
-        <p
-          className="text-white font-bold
-        xl:text-[0.9vw]"
-        >
-          {props.description}
-        </p>
+      <div className="hidden">
+        <p className="">STEP {props.num}</p>
+        <p className="">{props.description}</p>
       </div>
     </div>
   );

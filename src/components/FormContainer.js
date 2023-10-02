@@ -5,29 +5,29 @@ import Title from "./Title";
 
 function FormContainer() {
   return (
-    <div
-      className="formContainer form absolute w-full h-screen flex flex-col justify-between rounded-[1vw]
-    md:relative md:w-[70%] md:h-full md:px-[8vw] md:pb-0 "
+    <form
+      action=""
+      method="get"
+      className="FormContainer
+    relative w-full h-full pt-[14vh]
+    lg:w-[67%] lg:pt-0 lg:px-[7vw] lg:flex lg:flex-col lg:justify-center
+    "
     >
-      <form
-        action=""
-        method="get"
-        className=" md:flex flex-col justify-center
-md:h-screen"
+      <div
+        className="Form bg-gray-400
+      relative h-[60vh] w-[90%] mx-auto rounded-xl
+      lg:w-full lg:h-[90%] lg:mx-0"
       >
-        <div
-          className="form w-[90%] mx-auto mt-[23.5vw] bg-white rounded-xl px-[4vw] pt-[4vw] pb-[2vw] shadow-lg
-          md:relative md:m-0 md:w-full md:pt-[0] xl:shadow-none md:p-0 xl:m-0"
-        >
+        {/*         <div>
           <Title />
-          <div className="h-full xl:h-[75%]">
+          <div className="">
             <PersonalInfo />
             <PlanSelection />
           </div>
-        </div>
-        <NextStep />
-      </form>
-    </div>
+        </div> */}
+      </div>
+      <NextStep />
+    </form>
   );
 }
 

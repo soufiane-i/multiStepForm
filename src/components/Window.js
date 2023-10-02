@@ -5,8 +5,10 @@ import FormContainer from "./FormContainer";
 function Window() {
   return (
     <div
-      className="window relative flex p-0 w-full h-full rounded-[1vw]
-      md:bg-white md:w-[80%] md:h-[80%] md:p-[2vw] md:pr-[0]
+      className="Window relative 
+      h-full w-full
+      lg:w-[66vw] lg:h-[74%] lg:bg-white lg:flex lg:p-[1.8vw] lg:pr-0 lg:rounded-2xl
+
       "
     >
       <Steps />

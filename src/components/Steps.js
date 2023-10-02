@@ -4,23 +4,28 @@ import Step from "./Step";
 function Steps() {
   return (
     <div
-      className="steps relative w-full h-[40vw]
-      xl:w-[30%] xl:h-full
+      className="Steps
+      absolute z-0  top-0 left-0 w-full h-[25%]
+      lg:relative lg:h-full lg:w-[33%]
        "
     >
       <img
         src="/images/bg-sidebar-desktop.svg"
-        className="absolute w-full h-full object-cover rounded-[0.9vw] max-xl:hidden"
+        className="BgPc
+        hidden
+        lg:block lg:object-cover lg:w-full lg:h-full lg:rounded-2xl"
         alt="steps background"
       />
       <img
         src="/images/bg-sidebar-mobile.svg"
-        className="absolute w-full h-full object-cover rounded-[30px] max-xl:rounded-none xl:hidden "
+        className="BgMobile
+        w-full h-full object-cover block
+        lg:hidden"
         alt="steps background"
       />
       <div
-        className="pointer-events-none flex justify-center 
-        xl:flex-col xl:px-[12%] xl:py-[12%] 
+        className="absolute top-0 left-0 w-full h-[14vh] flex items-center justify-center
+        lg:flex lg:flex-col lg:items-start
       "
       >
         <Step num={1} description={"YOUR INFO"} />
