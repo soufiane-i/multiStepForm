@@ -10,7 +10,7 @@ function FormContainer() {
       method="get"
       className="FormContainer
     relative w-full h-full pt-[14vh]
-    lg:w-[67%] lg:pt-0 lg:px-[7vw] lg:flex lg:flex-col lg:justify-center
+    lg:w-[68%] lg:pt-0 lg:px-[7vw] lg:flex lg:flex-col lg:justify-center
     "
     >
       <div

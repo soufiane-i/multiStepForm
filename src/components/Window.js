@@ -7,7 +7,7 @@ function Window() {
     <div
       className="Window relative 
       h-full w-full
-      lg:w-[66vw] lg:h-[74%] lg:bg-white lg:flex lg:p-[1.8vw] lg:pr-0 lg:rounded-2xl
+      lg:w-[66vw] lg:h-[74%] lg:bg-white lg:flex lg:p-[1.2vw] lg:pr-0 lg:rounded-[1vw]
 
       "
     >
