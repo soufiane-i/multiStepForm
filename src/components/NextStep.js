@@ -2,32 +2,24 @@ function NextStep() {
   return (
     <div
       className="NextStep
-      absolute bottom-0 w-full h-[10vh] bg-red-200
-      lg:relative lg:h-[10%]
+      absolute bottom-0 w-full h-[120px] bg-white text-[100%] flex justify-between items-center px-[5%] font-normal
+      lg:relative lg:h-[13%] lg:text-[0.8vw] lg:px-0 
       "
     >
-      {/*       <div
-        className="
-      "
-      >
-        <input
-          className="
+      <input
+        className="text-gray-400
        "
-          type="submit"
-          value="Go Back"
-        />
-      </div> */}
-      {/*       <div
-        className="
-      "
-      >
-        <input
-          className="
+        type="submit"
+        value="Go Back"
+      />
+
+      <input
+        className="h-[60%] bg-blue-950 text-white px-[5%] rounded-md
+        lg:rounded-[0.4vw]
        "
-          type="submit"
-          value="Next Step"
-        />
-      </div> */}
+        type="submit"
+        value="Next Step"
+      />
     </div>
   );
 }

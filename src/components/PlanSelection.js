@@ -3,7 +3,7 @@ import style from "./style.css";
 
 function PlanSelection() {
   return (
-    <div className="planSelection">
+    <div className="planSelection hidden">
       <div className="">
         <Plan />
         <Plan />

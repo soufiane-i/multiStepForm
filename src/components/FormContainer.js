@@ -8,23 +8,22 @@ function FormContainer() {
     <form
       action=""
       method="get"
-      className="FormContainer
+      className="Form 
     relative w-full h-full pt-[14vh]
-    lg:w-[68%] lg:pt-0 lg:px-[7vw] lg:flex lg:flex-col lg:justify-center
+    lg:w-[68%] lg:pt-0 lg:px-[6.5vw] lg:flex lg:flex-col lg:justify-center
     "
     >
       <div
-        className="Form bg-gray-400
-      relative h-[60vh] w-[90%] mx-auto rounded-xl
-      lg:w-full lg:h-[90%] lg:mx-0"
+        className="FormContainer bg-white shadow-lg
+        relative h-[56vh] w-[90%] mx-auto p-[6%] rounded-xl
+      lg:w-full lg:h-[90%] lg:mx-0 lg:px-0"
+        l
       >
-        {/*         <div>
-          <Title />
-          <div className="">
-            <PersonalInfo />
-            <PlanSelection />
-          </div>
-        </div> */}
+        <Title />
+        <div className="h-[60%]">
+          <PersonalInfo />
+          <PlanSelection />
+        </div>
       </div>
       <NextStep />
     </form>
